@@ -1,0 +1,88 @@
+.light_on{
+    background-color: rgba(247, 246, 246, 0.9);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.light_off{
+    background-color: rgba(0, 0, 0, 0.9);
+    font-family: Arial, Helvetica, sans-serif;
+    color:#dddddd
+}
+#icon{
+    width: 100px;;
+}
+#x_yplain{
+    position:relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.input{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    line-height:30px;
+}
+#orgin_x,#orgin_y{
+    width: 50px;
+}
+#light{
+    width: 50px;
+    float:right;
+}
+#content{
+    width: 640px;
+    position:absolute;
+    left: 50%;
+    top:10px;
+    transform: translate(-50%,0);
+    align-content: center;
+    text-align: center;
+}
+.vector,.matrix{
+    width: 50px;
+}
+.new_revise{
+    float:left;
+}
+
+#send_matrix{
+    float:left;
+}
+.l,.r{
+    float:left;
+    position:relative;
+    top: -10px;
+    font-size: 50px;
+}
+#old_revise{
+    width: 480px;
+    height: 70px;
+    display: -webkit-box;
+    overflow-x: scroll;
+    white-space: nowrap;
+    float: left;
+}
+#over{
+    width: 160px;
+    height: 70px;
+    display: -webkit-box;
+    overflow-x: scroll;
+    white-space: nowrap;
+    float: left;
+}
+.knowledge{
+    text-align: center;
+}
+.measure{
+    float: left;
+    position: relative;
+    top:5px;
+    text-align: left;
+}
+.menu{
+    margin: 10px;
+    color:black;
+}
+.dmenu{
+    margin: 10px;
+    color:#dddddd;
+}
